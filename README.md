@@ -1,6 +1,6 @@
 # Blender
 ## Automated Model Blending
-Blending is a ensemble learning algorithm that combines the results of base models by training a higher-level learner on the lower level outputs. It is closely related to Stacked Generalization which was first introduced by Wolpert (1992).
+Blending is a ensemble learning method that combines the results of base models by training a higher-level learner on the lower level outputs. It is closely related to Stacked Generalization which was first introduced by Wolpert (1992).
 
 Recent interest in model blending and stacking has grown lately as a result of widespread use and success in Kaggle competitions, with winners often combining [over 30 models](https://www.kaggle.com/c/otto-group-product-classification-challenge/discussion/14335#184498). This script simplifies the model selection process by allowing users to choose any number of base models, the higher-level stacking model, and data stratification. The automated stacker also accomodates many different forms of machine learning tasks such as classification, regression, and image or text analysis. Additional base models not included here can also be used as long as they support `.fit()` and `.predict()` or `.predict_proba()` methods. 
 
